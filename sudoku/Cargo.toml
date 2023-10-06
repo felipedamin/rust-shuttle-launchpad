@@ -1,0 +1,12 @@
+[package]
+name = "issue3-sudoku-solver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.6.18", features = ["json"] }
+shuttle-axum = "0.28.0"
+shuttle-runtime = "0.28.0"
+tokio = "1.28.2"
+serde_json = "1.0.99"
+serde = "1.0.164"
